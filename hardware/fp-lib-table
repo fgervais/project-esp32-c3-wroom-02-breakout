@@ -5,4 +5,7 @@
   (lib (name "B6B-ZR(LF)(SN)")(type KiCad)(uri "${KIPRJMOD}/kicad-library/B6B-ZR(LF)(SN)")(options "")(descr ""))
   (lib (name ESP32-C3-WROOM-02-H4)(type KiCad)(uri ${KIPRJMOD}/kicad-library/ESP32-C3-WROOM-02-H4)(options "")(descr ""))
   (lib (name "SM04B-SRSS-TB(LF)(SN)")(type KiCad)(uri "${KIPRJMOD}/kicad-library/SM04B-SRSS-TB(LF)(SN)")(options "")(descr ""))
+  (lib (name SSM6J214FE-TE85L-F)(type KiCad)(uri ${KIPRJMOD}/kicad-library/SSM6J214FE-TE85L-F)(options "")(descr ""))
+  (lib (name CUS10S30,H3F)(type KiCad)(uri ${KIPRJMOD}/kicad-library/CUS10S30,H3F)(options "")(descr ""))
+  (lib (name USB4105-GF-A)(type KiCad)(uri ${KIPRJMOD}/kicad-library/USB4105-GF-A)(options "")(descr ""))
 )
