@@ -1069,4 +1069,6 @@ Text Label 6000 7500 0    50   ~ 0
 GND
 Wire Wire Line
 	6000 7500 6300 7500
+Text Label 2500 1600 0    50   ~ 0
+VIN
 $EndSCHEMATC
