@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6000 7300 0    50   ~ 0
-RTS
 Text Label 6000 7200 0    50   ~ 0
+RTS
+Text Label 6000 7100 0    50   ~ 0
 DTR
 $Comp
 L MUN5214DW1T1G:MUN5214DW1T1G Q1
@@ -150,9 +150,9 @@ $EndComp
 Wire Wire Line
 	3950 1600 3950 1400
 Connection ~ 3950 1600
-Text Label 6000 7100 0    50   ~ 0
-RX
 Text Label 6000 7000 0    50   ~ 0
+RX
+Text Label 6000 6900 0    50   ~ 0
 TX
 Text Label 1750 4500 0    50   ~ 0
 GPIO2
@@ -421,14 +421,14 @@ Text Label 1750 4400 0    50   ~ 0
 GPIO1
 Wire Wire Line
 	1750 4400 2050 4400
-Text Label 6000 6700 0    50   ~ 0
+Text Label 6000 6600 0    50   ~ 0
 GPIO0
 Wire Wire Line
-	6000 6700 6300 6700
-Text Label 6000 6800 0    50   ~ 0
+	6000 6600 6300 6600
+Text Label 6000 6700 0    50   ~ 0
 GPIO1
 Wire Wire Line
-	6000 6800 6300 6800
+	6000 6700 6300 6700
 Text Label 1750 4600 0    50   ~ 0
 GPIO3
 Wire Wire Line
@@ -443,20 +443,20 @@ Wire Wire Line
 	1750 4800 2050 4800
 Wire Wire Line
 	1750 4900 2050 4900
-Text Label 6000 6900 0    50   ~ 0
+Text Label 6000 6800 0    50   ~ 0
 GPIO3
 Wire Wire Line
-	6000 6900 6300 6900
-Text Label 5200 6900 0    50   ~ 0
+	6000 6800 6300 6800
+Text Label 5200 6800 0    50   ~ 0
 GPIO4
 Wire Wire Line
-	5200 6900 5500 6900
-Text Label 5200 7000 0    50   ~ 0
+	5200 6800 5500 6800
+Text Label 5200 6900 0    50   ~ 0
 GPIO5
 Wire Wire Line
-	5200 7000 5500 7000
+	5200 6900 5500 6900
 Wire Wire Line
-	5200 7100 5500 7100
+	5200 7000 5500 7000
 Wire Wire Line
 	3450 4300 3750 4300
 Wire Wire Line
@@ -464,53 +464,51 @@ Wire Wire Line
 Text Label 3500 4600 0    50   ~ 0
 GPIO10
 Wire Wire Line
-	6000 7400 6300 7400
-Text Label 6000 7400 0    50   ~ 0
+	6000 7300 6300 7300
+Text Label 6000 7300 0    50   ~ 0
 GPIO10
 $Comp
 L Connector:Conn_01x08_Male J2
 U 1 1 61A53595
-P 5700 7000
-F 0 "J2" H 5672 6928 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 5672 6883 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5700 7000 50  0001 C CNN
-F 3 "~" H 5700 7000 50  0001 C CNN
-	1    5700 7000
+P 5700 6900
+F 0 "J2" H 5672 6828 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 5672 6783 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5700 6900 50  0001 C CNN
+F 3 "~" H 5700 6900 50  0001 C CNN
+	1    5700 6900
 	-1   0    0    -1  
 $EndComp
 Text Label 3800 1600 0    50   ~ 0
 3V3
-Text Label 5200 7400 0    50   ~ 0
+Text Label 5200 7300 0    50   ~ 0
 GND
-Wire Wire Line
-	5200 7400 5500 7400
 Text Label 3300 2100 0    50   ~ 0
 GND
 $Comp
-L Connector:Conn_01x08_Male J3
+L Connector:Conn_01x10_Male J3
 U 1 1 61AC5D2E
 P 6500 7000
 F 0 "J3" H 6472 6928 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 6472 6883 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6500 7000 50  0001 C CNN
+F 1 "Conn_01x10_Male" H 6472 6883 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 6500 7000 50  0001 C CNN
 F 3 "~" H 6500 7000 50  0001 C CNN
 	1    6500 7000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 7200 5500 7200
-Wire Wire Line
-	6000 7100 6300 7100
+	5200 7100 5500 7100
 Wire Wire Line
 	6000 7000 6300 7000
 Wire Wire Line
-	6000 7200 6300 7200
+	6000 6900 6300 6900
 Wire Wire Line
-	6000 7300 6300 7300
-Text Label 5200 6700 0    50   ~ 0
+	6000 7100 6300 7100
+Wire Wire Line
+	6000 7200 6300 7200
+Text Label 5200 6600 0    50   ~ 0
 3V3
 Wire Wire Line
-	5200 6700 5500 6700
+	5200 6600 5500 6600
 $Comp
 L power:+3.3V #PWR0113
 U 1 1 617D3310
@@ -614,10 +612,10 @@ Text Notes 600  2950 0    50   ~ 0
 ESP32 Module
 Text Notes 7050 2850 0    50   ~ 0
 I2C/StemmaQT
-Text Label 5200 6800 0    50   ~ 0
+Text Label 5200 6700 0    50   ~ 0
 RESET
 Wire Wire Line
-	5200 6800 5500 6800
+	5200 6700 5500 6700
 $Comp
 L power:+3.3V #PWR0116
 U 1 1 61D14581
@@ -745,11 +743,11 @@ Text Notes 7050 4400 0    50   ~ 0
 USB
 Text Label 3500 4300 0    50   ~ 0
 SCL
-Text Label 5200 7200 0    50   ~ 0
+Text Label 5200 7100 0    50   ~ 0
 SCL
 Text Label 1750 4900 0    50   ~ 0
 SDA
-Text Label 5200 7100 0    50   ~ 0
+Text Label 5200 7000 0    50   ~ 0
 SDA
 Wire Wire Line
 	9700 3650 10050 3650
@@ -886,8 +884,8 @@ F 3 "" H 2200 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 7300 5500 7300
-Text Label 5200 7300 0    50   ~ 0
+	5200 7200 5500 7200
+Text Label 5200 7200 0    50   ~ 0
 VBAT
 $Comp
 L power:VBUS #PWR01
@@ -1061,4 +1059,14 @@ Wire Notes Line
 	4650 5200 6950 5200
 Wire Notes Line
 	4650 5200 4650 7800
+Wire Wire Line
+	5200 7300 5500 7300
+Text Label 6000 7400 0    50   ~ 0
+GND
+Wire Wire Line
+	6000 7400 6300 7400
+Text Label 6000 7500 0    50   ~ 0
+GND
+Wire Wire Line
+	6000 7500 6300 7500
 $EndSCHEMATC
