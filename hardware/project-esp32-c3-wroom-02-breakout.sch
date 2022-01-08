@@ -1041,7 +1041,7 @@ U 1 1 62254682
 P 6000 5550
 F 0 "H2" H 6100 5599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6100 5508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 6000 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 6000 5550 50  0001 C CNN
 F 3 "~" H 6000 5550 50  0001 C CNN
 	1    6000 5550
 	1    0    0    -1  
@@ -1052,7 +1052,7 @@ U 1 1 6225365F
 P 5050 5550
 F 0 "H1" H 5150 5599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5150 5508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 5050 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 5050 5550 50  0001 C CNN
 F 3 "~" H 5050 5550 50  0001 C CNN
 	1    5050 5550
 	1    0    0    -1  
