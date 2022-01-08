@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6000 7200 0    50   ~ 0
-RTS
 Text Label 6000 7100 0    50   ~ 0
+RTS
+Text Label 6000 7200 0    50   ~ 0
 DTR
 $Comp
 L MUN5214DW1T1G:MUN5214DW1T1G Q1
